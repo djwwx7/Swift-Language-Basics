@@ -59,6 +59,6 @@ print("\(distance) is the distance.")
 
 if lost == true && expensive == true {
     print("I am really sorry! I will get the manager.")
-} else if ost == true && expensive == false {
+} else if lost == true && expensive == false {
     print("Here is coupon for 10% off.")
 }
