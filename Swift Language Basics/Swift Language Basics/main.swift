@@ -62,3 +62,36 @@ if lost == true && expensive == true {
 } else if lost == true && expensive == false {
     print("Here is coupon for 10% off.")
 }
+
+switch(choice)
+{
+    case 1:
+        print("You chose 1.")
+    
+    case 2:
+        print("You chose 2.")
+    
+    case 3:
+        print("You chose 3.")
+    
+    default:
+        print("You made an unknown choice.")
+}
+
+print("\(integral) is an integral.")
+
+var i: Int = 0
+
+for i in 5...10 {
+    print("i = \(i)")
+}
+
+var age: Int = 0
+
+while age < 6 {
+    print("age = \(age)")
+    age += 1
+}
+
+print("\(greeting) \(name)")
+
